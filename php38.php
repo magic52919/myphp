@@ -1,0 +1,17 @@
+<?php
+//1.canvas (new)
+//2.process
+//3.output => 1.display or 2.export to file
+//4.free memory
+$rate = $_GET['rate'];
+
+$img = imagecreatetruecolor(400,20);
+
+$yellow = imagecolorallocate($img,255,255,0);
+imagefilledrectangle($img,0,0,400,20,$yellow);
+$red = imagecolorallocate($img,255,0,0);
+imagefilledrectangle($img,0,0,$rate*400/100,20,$red);
+header("Content-type: image/jpeg");
+imagejpeg($img);
+
+imagedestroy($img);

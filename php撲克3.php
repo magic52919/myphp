@@ -1,6 +1,5 @@
 <?php
 $poker = [];
-
 for ($i = 0; $i < 52; $i++) {
     $poker[$i] = $i;    
 }

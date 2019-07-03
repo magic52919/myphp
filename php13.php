@@ -2,7 +2,6 @@
 //LAB1 題目 
 //LAB2 題目質數黃底
 //LAB3 題目撲克牌V3版換牌
-
 ?>
 <table border='1' width='100%'>
         <?php

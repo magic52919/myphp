@@ -17,5 +17,4 @@
 <form action="php撲克3.php" method="GET">
     <input type="submit" value="前往" name="" id="">
 </form>
-
 <hr>

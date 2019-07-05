@@ -15,7 +15,7 @@ if (isset($_REQUEST['editid'])) {
     $price = $_REQUEST['price'];
     $sql = "UPDATE product set pname='{$pname}',price= '{$price}' where id = '{$updateid}'";
     $mysqli->query($sql);
-    header('Location: bmain.php');
+     header('Location: bmain.php');
 }
 ?>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">

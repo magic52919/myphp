@@ -17,7 +17,7 @@ if (isset($_REQUEST['cloneid'])) {
 }
 
 $page = isset($_GET['page'])?$_GET['page']:1;
-$rpp =4;
+$rpp =10;
 $start = ($page-1) * $rpp;
 
 $sql = "select * from product limit {$start},{$rpp}";

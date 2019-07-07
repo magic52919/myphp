@@ -25,6 +25,6 @@ imagecopyresampled($dst,$src,0,0,0,0,
 );
 
 //  header("Content-type: image/jpeg");
-imagejpeg($dst,"../dir1/nee.jpg");
+// imagejpeg($dst,"../dir1/nee.jpg");
 imagedestroy($src);
 imagedestroy($dst);

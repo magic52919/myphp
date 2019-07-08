@@ -37,7 +37,7 @@ Welcome, <?php echo $member->realname;?><br>
         echo "<td>{$product->price}</td>";
        
         echo "<td>";
-        echo "<input type='number' name='{$product->id}'>";
+        echo "<input type='number' onclick=`check({$product->id})`>";
         echo '樣';
         echo "</td>";
         echo '</tr>';
